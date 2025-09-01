@@ -11,9 +11,9 @@ public class LevelEditorScene extends Scene {
     }
 
     @Override
-    public void update(float dt) {
+    public void update(double dt) {
         System.out.println("Delta time: " + dt);
-        System.out.println("" + (1.0f / dt) + " FPS");
+        System.out.println("" + (1.0 / dt) + " FPS");
 
         if (!changingScene && KeyListener.isKeyPressed(KeyEvent.VK_SPACE)) {
             changingScene = true;
