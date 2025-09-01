@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="created KeyListener.java&#10;added code for KeyListener.java&#10;added callbacks for KeyListener in Window.init()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/MouseListener.java" afterDir="false" />
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="fixed bug in MouseListener.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756604777501</updated>
-      <workItem from="1756604778811" duration="4178000" />
+      <workItem from="1756604778811" duration="4381000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756727465901</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed bug in MouseListener.java">
+      <created>1756727860604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756727860605</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="created MouseListener.java&#10;added code to MouseListener.java&#10;added memory freeing to Window.java" />
     <MESSAGE value="set callbacks for MouseListener within Window.init()" />
     <MESSAGE value="created KeyListener.java&#10;added code for KeyListener.java&#10;added callbacks for KeyListener in Window.init()" />
-    <option name="LAST_COMMIT_MESSAGE" value="created KeyListener.java&#10;added code for KeyListener.java&#10;added callbacks for KeyListener in Window.init()" />
+    <MESSAGE value="fixed bug in MouseListener.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug in MouseListener.java" />
   </component>
 </project>
