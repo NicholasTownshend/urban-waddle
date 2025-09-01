@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="created scenes and scene management">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float">
+      <change afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -72,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756604777501</updated>
       <workItem from="1756604778811" duration="6302000" />
-      <workItem from="1756764706900" duration="324000" />
+      <workItem from="1756764706900" duration="4480000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756729975819</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float">
+      <created>1756765105508</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756765105508</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +180,7 @@
     <MESSAGE value="created Time.java&#10;added code to Time.java" />
     <MESSAGE value="added time keeping code to Window.loop" />
     <MESSAGE value="created scenes and scene management" />
-    <option name="LAST_COMMIT_MESSAGE" value="created scenes and scene management" />
+    <MESSAGE value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
   </component>
 </project>
