@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float">
-      <change afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box">
+      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Mario.main" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756604777501</updated>
       <workItem from="1756604778811" duration="6302000" />
-      <workItem from="1756764706900" duration="4480000" />
+      <workItem from="1756764706900" duration="6949000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756765105508</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box">
+      <created>1756769983852</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756769983852</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +158,36 @@
             <State />
           </value>
         </entry>
+        <entry key="f6a48838-6948-4088-b065-f29009b70375">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f6a48838-6948-4088-b065-f29009b70375" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -181,6 +216,7 @@
     <MESSAGE value="added time keeping code to Window.loop" />
     <MESSAGE value="created scenes and scene management" />
     <MESSAGE value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
+    <MESSAGE value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
+    <option name="LAST_COMMIT_MESSAGE" value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
   </component>
 </project>
