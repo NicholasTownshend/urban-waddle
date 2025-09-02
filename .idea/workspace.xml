@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box">
-      <change afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="abstracted shader logic code to Shader.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enginetown/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756604777501</updated>
       <workItem from="1756604778811" duration="6302000" />
-      <workItem from="1756764706900" duration="6949000" />
+      <workItem from="1756764706900" duration="8970000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756769983852</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="abstracted shader logic code to Shader.java">
+      <created>1756774977672</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756774977672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +227,7 @@
     <MESSAGE value="created scenes and scene management" />
     <MESSAGE value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
     <MESSAGE value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
-    <option name="LAST_COMMIT_MESSAGE" value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
+    <MESSAGE value="abstracted shader logic code to Shader.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstracted shader logic code to Shader.java" />
   </component>
 </project>
