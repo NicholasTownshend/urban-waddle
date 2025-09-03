@@ -41,10 +41,10 @@ public class LevelEditorScene extends Scene {
 
     private float[] vertexArray ={
                 // position                         // color
-             100.5f, 0.5f, 0.0f,              1.0f, 0.0f, 0.0f, 1.0f, // bottom right 0
-             0.5f, 100.5f, 0.0f,              1.0f, 1.0f, 0.0f, 1.0f, // top left     1
-             100.5f, 100.5f, 0.0f,              0.0f, 0.0f, 1.0f, 1.0f, // top right    2
-             0.5f, 0.5f, 0.0f,               1.0f, 1.0f, 0.0f, 1.0f, // bottom left  3
+             1980f, 0f,    0.0f,              1.0f, 0.0f, 0.0f, 1.0f, // bottom right 0
+             0f,    1080f, 0.0f,              1.0f, 1.0f, 0.0f, 1.0f, // top left     1
+             1980f, 1080f, 0.0f,              0.0f, 0.0f, 1.0f, 1.0f, // top right    2
+             0f,    0f,    0.0f,              1.0f, 1.0f, 0.0f, 1.0f, // bottom left  3
     };
 
     // IMPORTANT : Must be in counter-clockwise order

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="created Camera.java&#10;scene is setup so that the camera slowly moves">
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="filled out the Shader.java class&#10;has a noise function in default.glsl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <updated>1756604777501</updated>
       <workItem from="1756604778811" duration="6302000" />
       <workItem from="1756764706900" duration="9633000" />
-      <workItem from="1756865956270" duration="1469000" />
+      <workItem from="1756865956270" duration="2788000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756783040432</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="filled out the Shader.java class&#10;has a noise function in default.glsl">
+      <created>1756867508910</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756867508910</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +246,7 @@
     <MESSAGE value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
     <MESSAGE value="abstracted shader logic code to Shader.java" />
     <MESSAGE value="created Camera.java&#10;scene is setup so that the camera slowly moves" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Camera.java&#10;scene is setup so that the camera slowly moves" />
+    <MESSAGE value="filled out the Shader.java class&#10;has a noise function in default.glsl" />
+    <option name="LAST_COMMIT_MESSAGE" value="filled out the Shader.java class&#10;has a noise function in default.glsl" />
   </component>
 </project>
