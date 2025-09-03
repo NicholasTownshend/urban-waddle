@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="abstracted shader logic code to Shader.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enginetown/Camera.java" afterDir="false" />
+    <list default="true" id="5da81487-6301-4e59-83e7-d5d04da4424c" name="Changes" comment="created Camera.java&#10;scene is setup so that the camera slowly moves">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/shaders/default.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shaders/default.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/LevelEditorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enginetown/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renderer/Shader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -75,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1756604777501</updated>
       <workItem from="1756604778811" duration="6302000" />
-      <workItem from="1756764706900" duration="8970000" />
+      <workItem from="1756764706900" duration="9633000" />
+      <workItem from="1756865956270" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="init commit&#10;created Window.java&#10;window displays with red screen">
       <created>1756605865919</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756774977672</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created Camera.java&#10;scene is setup so that the camera slowly moves">
+      <created>1756783040432</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756783040432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,11 @@
         <entry key="f6a48838-6948-4088-b065-f29009b70375">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
@@ -228,6 +239,7 @@
     <MESSAGE value="fixed time keeping errors &quot;Infinity FPS&quot;...&#10;changed time keeping to use double instead of float" />
     <MESSAGE value="added default.glsl as shader&#10;added scene init() method&#10;initialized shader in LevelEditorScene.java&#10;drawing a colour gradient box" />
     <MESSAGE value="abstracted shader logic code to Shader.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="abstracted shader logic code to Shader.java" />
+    <MESSAGE value="created Camera.java&#10;scene is setup so that the camera slowly moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Camera.java&#10;scene is setup so that the camera slowly moves" />
   </component>
 </project>
